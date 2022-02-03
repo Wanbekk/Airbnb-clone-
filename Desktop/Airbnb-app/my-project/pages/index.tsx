@@ -6,7 +6,9 @@ import SmallCard from '../components/SmallCard';
 import LargeCard from  '../components/LargeCard';
 
 
+
 export default function Home() {
+  
   return (
     <div className="">
       <Head>
@@ -15,9 +17,14 @@ export default function Home() {
       </Head>
     
       <Header/>
+      
       <Banner/>
       <SmallCard/>
-     
+
+  
+  
+    
+ 
 
       {/*
       <main className='max-w-7xl mx-auto px-8 sm:px-16'>
