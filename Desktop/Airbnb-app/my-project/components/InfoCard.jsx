@@ -3,10 +3,10 @@ import Image from 'next/image';
 import { HeartIcon } from '@heroicons/react/solid';
 import { StarIcon } from '@heroicons/react/solid';
 
-function InfoCard({img, location, description, star, price, total}) {
+function InfoCard({img, location, description, star, price, total, title}) {
   return (
   <div  className='flex py-2 px-2 border-b cursor-pointer hover:opacity-80 hover:shadow-lg pr-4 transition duration-150 ease-out first:border-t-4 '>
-      console.log({img+location+description+price+total});
+      
     <div className='relative h-24 w-40 md:h-52 md:w-80 flex-shrink-0'>
         <Image 
          src={img}
